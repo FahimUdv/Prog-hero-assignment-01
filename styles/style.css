@@ -8,6 +8,7 @@
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 nav {
@@ -16,7 +17,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #870202;
 }   
 
 header{
@@ -38,4 +38,49 @@ header{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.hero {
+    width: 100%;
+    padding: 150px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 800;
+    font-family: Raleway;
+    color: #252432;
+    padding: 30px 0px;
+}
+
+.action-section {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;   
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: Raleway;
+    color: #252432;
+}
+
+.action-text {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Raleway;
+    color: #252432;
+    opacity: 50%;
+    padding: 20px 0px;
+}
+
+.action-img {
+    max-width: 403px;
+    max-height: 328px;
+    border-radius: 48px;
 }
