@@ -55,6 +55,12 @@ header{
     padding: 30px 0px;
 }
 
+.section-basics {
+    background-color: #f5f8ff; 
+    width: 100%; 
+    padding: 60px 0px;
+}
+
 .action-section {
     width: 80%;
     display: flex;
@@ -83,4 +89,59 @@ header{
     max-width: 403px;
     max-height: 328px;
     border-radius: 48px;
+}
+
+.secondary-title {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Raleway;
+    color: #252432;
+    text-align: center;
+}
+
+.numbers {
+    font-family: "Inter";
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.small-text {
+    font-family: Raleway;
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
+}
+
+.review-card {
+    background-color: white; 
+    padding: 30px 60px 20px 20px; 
+    border-radius: 14px;
+    box-shadow: 0px 1px 5px rgba(156, 156, 156, 0.1) ;
+}
+
+.review-title {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Raleway;
+    color: #252432;
+    padding: 20px 0px 10px 0px;
+}
+
+.review-text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #252432;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.review-date {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #252432;
+    opacity: 50%;
 }
