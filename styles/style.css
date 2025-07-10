@@ -38,6 +38,11 @@ header{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: #ba0404;
 }
 
 .hero {
